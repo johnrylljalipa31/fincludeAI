@@ -1,0 +1,67 @@
+{
+  "audit_status": "APPROVED",
+  "four_fifths_rule_pass": true,
+  "demographic_evaluations": {
+    "gender": {
+      "Female": {
+        "mean_score": 74.32,
+        "approval_rate": 86.67,
+        "disparate_impact_ratio": 1.0,
+        "four_fifths_rule_compliant": true
+      },
+      "Male": {
+        "mean_score": 73.84,
+        "approval_rate": 84.44,
+        "disparate_impact_ratio": 0.9744,
+        "four_fifths_rule_compliant": true
+      },
+      "Non-Binary": {
+        "mean_score": 73.88,
+        "approval_rate": 83.06,
+        "disparate_impact_ratio": 0.9583,
+        "four_fifths_rule_compliant": true
+      }
+    },
+    "age_group": {
+      "25-40": {
+        "mean_score": 73.82,
+        "approval_rate": 82.22,
+        "disparate_impact_ratio": 0.9518,
+        "four_fifths_rule_compliant": true
+      },
+      "<25": {
+        "mean_score": 74.03,
+        "approval_rate": 85.56,
+        "disparate_impact_ratio": 0.9904,
+        "four_fifths_rule_compliant": true
+      },
+      ">40": {
+        "mean_score": 74.18,
+        "approval_rate": 86.39,
+        "disparate_impact_ratio": 1.0,
+        "four_fifths_rule_compliant": true
+      }
+    },
+    "gig_segment": {
+      "Freelance & Creative": {
+        "mean_score": 74.16,
+        "approval_rate": 85.0,
+        "disparate_impact_ratio": 1.0,
+        "four_fifths_rule_compliant": true
+      },
+      "Online Seller & Merchant": {
+        "mean_score": 74.3,
+        "approval_rate": 84.72,
+        "disparate_impact_ratio": 0.9967,
+        "four_fifths_rule_compliant": true
+      },
+      "Ride-Hailing & Delivery": {
+        "mean_score": 73.58,
+        "approval_rate": 84.44,
+        "disparate_impact_ratio": 0.9935,
+        "four_fifths_rule_compliant": true
+      }
+    }
+  },
+  "timestamp": "2026-09-13T17:00:33.850985"
+}

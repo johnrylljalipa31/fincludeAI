@@ -1,0 +1,362 @@
+{
+  "evaluation_title": "Finclude-AI User Acceptance Testing (UAT)",
+  "sample_size": 30,
+  "overall_sus_score": 88.5,
+  "overall_mean_likert": 4.54,
+  "domains": {
+    "q1_ease_auth": {
+      "label": "1. Ease of Registration & Login Workflow",
+      "mean": 4.5,
+      "std": 0.57,
+      "pct_positive": 96.7
+    },
+    "q2_consent_clarity": {
+      "label": "2. Clarity of RA 10173 Consent & Data Minimization Notice",
+      "mean": 4.83,
+      "std": 0.38,
+      "pct_positive": 100.0
+    },
+    "q3_smile_linking": {
+      "label": "3. Ease of Linking Financial & Digital Wallet Sources",
+      "mean": 4.33,
+      "std": 0.55,
+      "pct_positive": 96.7
+    },
+    "q4_shap_explainability": {
+      "label": "4. Transparency & Understandability of SHAP XAI Insights",
+      "mean": 4.6,
+      "std": 0.5,
+      "pct_positive": 100.0
+    },
+    "q5_dashboard_stability": {
+      "label": "5. Stability Dashboard Utility & Loan Lifecycle Usability",
+      "mean": 4.43,
+      "std": 0.57,
+      "pct_positive": 96.7
+    }
+  },
+  "cohorts": {
+    "Gig Workers (Ride-Hailing & Delivery)": {
+      "count": 10,
+      "mean_likert": 4.48,
+      "mean_sus": 87.0
+    },
+    "Freelancers & Creative Professionals": {
+      "count": 8,
+      "mean_likert": 4.62,
+      "mean_sus": 90.6
+    },
+    "Online Sellers & Micro-Merchants": {
+      "count": 7,
+      "mean_likert": 4.4,
+      "mean_sus": 85.0
+    },
+    "Technical Evaluators & Privacy Auditors": {
+      "count": 5,
+      "mean_likert": 4.72,
+      "mean_sus": 93.0
+    }
+  },
+  "respondents": [
+    {
+      "respondent_id": "RESP_001",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 100.0
+    },
+    {
+      "respondent_id": "RESP_002",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 5,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_003",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 4,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_004",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 4,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 4,
+      "sus_score": 80.0
+    },
+    {
+      "respondent_id": "RESP_005",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 4,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_006",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 4,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 5,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_007",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 5,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_008",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 3,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 5,
+      "sus_score": 80.0
+    },
+    {
+      "respondent_id": "RESP_009",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 4,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_010",
+      "cohort": "Gig Workers (Ride-Hailing & Delivery)",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_011",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_012",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 4,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_013",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 5,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_014",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_015",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 3,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_016",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_017",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_018",
+      "cohort": "Freelancers & Creative Professionals",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_019",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 4,
+      "sus_score": 80.0
+    },
+    {
+      "respondent_id": "RESP_020",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_021",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 4,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 4,
+      "sus_score": 75.0
+    },
+    {
+      "respondent_id": "RESP_022",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_023",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 3,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 80.0
+    },
+    {
+      "respondent_id": "RESP_024",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_025",
+      "cohort": "Online Sellers & Micro-Merchants",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 4,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 4,
+      "q5_dashboard_stability": 5,
+      "sus_score": 90.0
+    },
+    {
+      "respondent_id": "RESP_026",
+      "cohort": "Technical Evaluators & Privacy Auditors",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_027",
+      "cohort": "Technical Evaluators & Privacy Auditors",
+      "q1_ease_auth": 4,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 85.0
+    },
+    {
+      "respondent_id": "RESP_028",
+      "cohort": "Technical Evaluators & Privacy Auditors",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 5,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 4,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_029",
+      "cohort": "Technical Evaluators & Privacy Auditors",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 95.0
+    },
+    {
+      "respondent_id": "RESP_030",
+      "cohort": "Technical Evaluators & Privacy Auditors",
+      "q1_ease_auth": 5,
+      "q2_consent_clarity": 5,
+      "q3_smile_linking": 4,
+      "q4_shap_explainability": 5,
+      "q5_dashboard_stability": 5,
+      "sus_score": 95.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9733,
+      "precision": 0.975,
+      "recall": 0.9891,
+      "f1_score": 0.982,
+      "roc_auc": 0.9954
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.8667,
+      "precision": 0.8531,
+      "recall": 0.9891,
+      "f1_score": 0.9161,
+      "roc_auc": 0.9571
+    },
+    {
+      "model": "Gradient Boosting (GBM)",
+      "accuracy": 0.9067,
+      "precision": 0.903,
+      "recall": 0.9783,
+      "f1_score": 0.9391,
+      "roc_auc": 0.9653
+    }
+  ],
+  "selected_model": "Logistic Regression",
+  "best_roc_auc": 0.9954,
+  "features": [
+    "avg_monthly_income",
+    "income_consistency",
+    "income_growth_rate",
+    "inflow_outflow_ratio",
+    "cash_flow_stability",
+    "active_financial_days",
+    "avg_monthly_balance",
+    "min_account_balance",
+    "transaction_frequency",
+    "payment_consistency",
+    "gig_earnings_activity",
+    "burn_rate_trajectory"
+  ],
+  "timestamp": "2026-09-13T17:16:27.556861"
+}
